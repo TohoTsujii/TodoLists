@@ -9,7 +9,7 @@ loginBtn.addEventListener("click" ,(event)=>{
     event.preventDefault();
     if (loginId === "0000" && password === "0000"){
 
-        location = "/home.html";
+        location = "/TodoLists/home.html";
 
     }else{
         window.alert("IDまたはパスワードが間違っています。");
